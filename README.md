@@ -24,7 +24,9 @@ Dataset Description :
 Regression Task : Predict vomitoxin concentraion based on spectral data.
 Choice of the model - CNNs are a great fit for hyperspectral data because they can capture local spectral patterns (e.g., peaks/dips across adjacent bands) while being computationally efficient and widely successful in similar tasks.
 
-We will treat 448 bands as 1D sequence, leveraging convolutional filters to extract feeatures.
+We will treat 448 bands as 1D sequence, leveraging convolutional filters to extract features.
+
+We will use logtransform to deal with the rightly skewed distribution problem.
 
 # Classification Task Notebook
 Converting the Regression Problem(predicitng vomitoxin_ppb) into a classification problem.
