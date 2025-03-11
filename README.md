@@ -45,12 +45,6 @@ We will treat 448 bands as 1D sequence, leveraging convolutional filters to extr
 
 We will use logtransform to deal with the rightly skewed distribution problem.
 
-# Classification Task Notebook
-Converting the Regression Problem(predicitng vomitoxin_ppb) into a classification problem.
-
-To distinguish into a binary classification we divide the vomitoxin level as per the median into binary classification problem as the distribution is rightly-skewed. 
-
-It seems to be a practical choice for food safety applications where a threshold determines actionability
 
 # Attention Mechnaism(Bonus)
 Transformer with Attention
