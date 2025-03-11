@@ -32,6 +32,11 @@ Applied Standardization: The spectral data is standardized using StandardScaler,
 Average Reflectance Plot: Reflectance tends to have a smooth pattern with minor variations indicating stable spectral measurements across bands.
 Heatmap of Samples: Displays spectral variations across randomly selected samples, highlighting diversity in spectral responses
 
+# Dimensionality Reduction
+Interpretation: The first 2 Principal Componentss might explain ~80% of the variance, and 5 PCs could exceed 95%, meaning we can reduce from 448 to 5 dimensions with minimal information loss. A 3D view might reveal tighter clusters or separation not visible in 2D.
+
+t-SNE is a non-linear method that excels at visualizing high-dimensional data in 2D or 3D by preserving local structure (e.g., clustering)
+
 # Regression Task Notebook
 Dataset Description :
 1. 500 corn samples
