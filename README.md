@@ -22,9 +22,6 @@ Dataset Description :
 3. Vomitoxin_parts per billion
 
 Regression Task : Predict vomitoxin concentraion based on spectral data.
-
-# Random Forest Notebook
-
 Choice of the model - CNNs are a great fit for hyperspectral data because they can capture local spectral patterns (e.g., peaks/dips across adjacent bands) while being computationally efficient and widely successful in similar tasks.
 
 We will treat 448 bands as 1D sequence, leveraging convolutional filters to extract feeatures.
