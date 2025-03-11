@@ -33,3 +33,10 @@ Converting the Regression Problem(predicitng vomitoxin_ppb) into a classificatio
 To distinguish into a binary classification we divide the vomitoxin level as per the median into binary classification problem as the distribution is rightly-skewed. 
 
 It seems to be a practical choice for food safety applications where a threshold determines actionability
+
+# Attention Mechnaism(Bonus)
+Transformer with Attention
+
+Transformerss excel at capturing long-range dependencies,which could be advantageous if spectral bands have complex, non-local interactions related to vomitoxin levels.
+
+Unlike CNNs, which focus on local patterns, Transformers use attention to weigh all bands simultaneously, potentially capturing global spectral relationships relevant to vomitoxin.
