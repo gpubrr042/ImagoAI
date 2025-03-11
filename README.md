@@ -5,7 +5,7 @@ Machine Learning Assignment for ImagoAI
 Exploratory Data Analysis (EDA) Summary:
 1. Dataset Overview:
 2. Entries: 500 samples
-3. Features: 449 numeric hyperspectral features plus one target (vomitoxin_ppb)
+3. Features: 448 numeric hyperspectral features plus one target (vomitoxin_ppb)
 4. Identifier Column: hsi_id (non-numeric)
    
 # Key Observations:
