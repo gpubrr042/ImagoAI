@@ -20,6 +20,18 @@ This indicates that the log transformation effectively reduced the skewness, mak
 
 This indicates that there are several very high values, making transformations (such as a log-transform) advisable for regression or using threshold-based approaches for classification tasks.
 
+# Data Exploration and Preprocessing Summary:
+1. Missing Values and Data Quality:
+Missing Values: No missing values detected.
+Data Consistency: Data appears consistent and suitable for modeling.
+2. Outliers:
+Outliers exist in spectral bands, notably at extreme quantiles (1% and 99%), which are slightly distant from the mean. These could be naturally occurring due to spectral variability rather than errors, but they warrant consideration in modeling.
+3. Normalization/Standardization:
+Applied Standardization: The spectral data is standardized using StandardScaler, centering each feature around zero with unit variance, beneficial for many regression algorithms sensitive to scale differences.
+4. Visualizations:
+Average Reflectance Plot: Reflectance tends to have a smooth pattern with minor variations indicating stable spectral measurements across bands.
+Heatmap of Samples: Displays spectral variations across randomly selected samples, highlighting diversity in spectral responses
+
 # Regression Task Notebook
 Dataset Description :
 1. 500 corn samples
